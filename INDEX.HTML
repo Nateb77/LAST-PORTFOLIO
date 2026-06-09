@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jordan Lee | Web Development Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="STYLE.CSS" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="INDEX.HTML">Jordan Lee</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#about">About</a>
+        <a href="#projects">Work</a>
+        <a href="#process">Approach</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Web Developer Portfolio</p>
+          <h1>Crafting modern web experiences with clarity, performance, and polish.</h1>
+          <p class="hero-copy">I design responsive websites that help brands tell their story, simplify navigation, and deliver smooth interactions across devices.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View Work</a>
+            <a class="button button-secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="panel-card">
+            <h2>Ready for your next website?</h2>
+            <p>Explore project case studies, development choices, and the design principles used to build professional web experiences.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container split-grid">
+        <div>
+          <p class="section-label">About Me</p>
+          <h2>Focused on clean interfaces and reliable code.</h2>
+          <p>I bring thoughtful layouts, accessible components, and responsive design to every project. I balance striking visuals with easy-to-use structure, so visitors can quickly find the information they need.</p>
+          <p>My portfolio highlights a range of solutions: marketing sites, data dashboards, and interactive learning tools built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card">
+            <span>05+</span>
+            <p>Complete website builds</p>
+          </article>
+          <article class="stat-card">
+            <span>HTML, CSS, JS</span>
+            <p>Front-end languages used</p>
+          </article>
+          <article class="stat-card">
+            <span>Responsive</span>
+            <p>Designed for mobile and desktop</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Work Gallery</p>
+          <h2>Selected projects with clear goals and polished execution.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-meta">
+              <p class="project-type">Interactive web app</p>
+              <h3>Financial Goals Tracker</h3>
+            </div>
+            <p>Data-driven budgeting interface with interactive charts and goal tracking for personal finance.</p>
+            <div class="project-footer">
+              <span>HTML · CSS · JavaScript</span>
+              <a class="button button-tertiary" href="project-finance.html">View details</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <p class="project-type">Portfolio redesign</p>
+              <h3>Creative Agency Website</h3>
+            </div>
+            <p>Modern landing page with smooth animations, responsive layout, and a focus on user engagement.</p>
+            <div class="project-footer">
+              <span>HTML · CSS · JavaScript</span>
+              <a class="button button-tertiary" href="project-portfolio.html">View details</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <p class="project-type">Dashboard interface</p>
+              <h3>Performance Insights Dashboard</h3>
+            </div>
+            <p>Clean analytics dashboard with clear data cards, responsive charts, and a user-focused layout.</p>
+            <div class="project-footer">
+              <span>HTML · CSS · JavaScript</span>
+              <a class="button button-tertiary" href="project-dashboard.html">View details</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="process">
+      <div class="container split-grid align-center">
+        <div>
+          <p class="section-label">Design Approach</p>
+          <h2>Organized delivery with hierarchy, alignment, and spacing.</h2>
+          <p>Each section is intentionally grouped, with headings that guide visitors and content that supports a clear visual path. I prioritize consistency so the page feels cohesive and professional.</p>
+        </div>
+        <div class="process-list">
+          <div class="process-step">
+            <h3>Hierarchy</h3>
+            <p>Important content is emphasized with strong headings, clear labels, and contrast for quick scanning.</p>
+          </div>
+          <div class="process-step">
+            <h3>Alignment</h3>
+            <p>Layouts are grouped and aligned using grid and flex structure, so related information stays visually connected.</p>
+          </div>
+          <div class="process-step">
+            <h3>Proximity</h3>
+            <p>Project details, features, and links are kept close to one another to create meaningful content blocks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-panel">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Let's build something professional together.</h2>
+          <p>If you'd like to discuss a project, collaborate, or review code samples, I’m available to share more work and ideas.</p>
+        </div>
+        <a class="button button-primary" href="mailto:contact@example.com">Email me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Jordan Lee. Portfolio built with HTML, CSS, and JavaScript.</p>
+      <p>Designed for clean presentation and responsive browsing.</p>
+    </div>
+  </footer>
+
+  <script src="SCRIPT.JS"></script>
+</body>
+</html>
